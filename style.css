@@ -1,0 +1,72 @@
+*{
+    font-family: "Inter";
+    margin: 0;
+}
+
+/*First*/
+.containerOne{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+#hLogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 32px;
+    width: 600px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*Second*/
+
+.containerTwo{
+    height: 600px;
+    background-color: #1f2937;
+    /*Can replace*/
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 256px;
+    padding-right: 256px;
+
+}
+
+.box{
+    width: 576px;
+    height: 400px;
+}
+
+.box h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.box p{
+    font-size: 18px;
+    margin: 20px 0px 20px;
+}
+
+.box button{
+    background-color: #3882f6;
+    border: none;
+    color: #E5E7EB;
+    width: 128px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
