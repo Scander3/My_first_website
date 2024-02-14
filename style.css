@@ -29,6 +29,9 @@ ul{
     color: #E5E7EB;
 }
 
+li{
+    margin-left: 16px;
+}
 /*Second*/
 
 .containerTwo{
@@ -70,3 +73,9 @@ ul{
     border-radius: 10px;
 }
 
+#boxTwo{
+    background-color: #63676f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
