@@ -6,7 +6,7 @@
 /*First*/
 .containerOne{
     height: 100px;
-    background-color: #1f2937;
+    background-color:#1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,20 +22,19 @@
 ul{
     list-style-type: none;
     display: flex;
-    justify-content: end;
-    gap: 32px;
-    width: 600px;
+    justify-content: space-between;
+    width: 500px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 li{
-    margin-left: 16px;
+    
 }
 /*Second*/
 
 .containerTwo{
-    height: 600px;
+    height: 450px;
     background-color: #1f2937;
     /*Can replace*/
     font-size: 18px;
@@ -50,16 +49,18 @@ li{
 
 .box{
     width: 576px;
-    height: 400px;
+    height: 256px;
 }
 
 .box h1{
     font-size: 48px;
     font-weight: 900;
+    max-width: 400px;
 }
 .box p{
     font-size: 18px;
     margin: 20px 0px 20px;
+    max-width: 550px;
 }
 
 .box button{
@@ -73,9 +74,50 @@ li{
     border-radius: 10px;
 }
 
+
 #boxTwo{
     background-color: #63676f;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.containerThree{
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFour{
+    height: 500px;
+    background-color: #e7ecf3;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 32px;
+}
+
+.boxFour p{
+    width: 198px;
+}
+
+.imgBox{
+    width: 180px;
+    height: 180px;
+    border: 5px solid  #3882f6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.containerFive{
+    background-color: #3882f6;
+    height: 500px;
 }
